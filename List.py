@@ -1,0 +1,17 @@
+l=[]
+n=int(input("enter the tuple size :"))
+for i in range (n):
+    e=input("enter elements :")
+    l.append(e)
+print("given tuple is :")
+print(tuple(l))
+m=int(input("enter index no to pop element :"))
+l.pop(m)
+print("after poping tuple is :")
+print(tuple(l))
+b=int(input("enter index no to add element :"))
+l.pop(b)
+d=input("enter element to insert :")
+l.insert(b,d)
+print("after adding the element tuple is :")
+print(tuple(l))

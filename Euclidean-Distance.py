@@ -1,0 +1,6 @@
+x1 = int(input("enter x1 valus :"))
+x2 = int(input("enter x2 valus :"))
+y1 = int(input("enter y1 value :"))
+y2 = int(input("enter y2 value :"))
+d  = (((x2-x1)**2+(y2-y1)**2))
+print(d**0.5)
